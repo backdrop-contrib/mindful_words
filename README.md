@@ -7,9 +7,14 @@ Bedrock.
 It ships with three color schemes. You can fully customize those schemes on
 admin/appearance/settings/mindful_words, if the Color module's enabled.
 
-If the TinyMCE editor (contrib module) is used to edit content, you can pick
-from several predefied styles (button styles for links and font sizes) in
-the editor's formats dropdown.
+Special care has been taken to comply with Web Content Accessibility Guidelines
+(WCAG) regarding contrast between background and foreground in all three color
+schemes.
+
+As a nice little addition there are button styles for links, useful for
+action buttons in content. If the TinyMCE editor (contrib module) is used to
+edit content, you can pick from several predefied styles in the editor's
+formats dropdown.
 
 ## Installation
 
