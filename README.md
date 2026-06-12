@@ -12,9 +12,13 @@ Special care has been taken to comply with Web Content Accessibility Guidelines
 schemes.
 
 As a nice little addition there are button styles for links, useful for
-action buttons in content. If the TinyMCE editor (contrib module) is used to
-edit content, you can pick from several predefied styles in the editor's
-formats dropdown.
+action buttons in content. If the [TinyMCE editor](https://backdropcms.org/project/tinymce)
+(contrib module) is used to edit content, you can pick from several predefied
+styles in the editor's formats dropdown.
+
+If you need to customize this theme beyond color schemes, it's recommended
+to use [CSS Injector](https://backdropcms.org/project/css_injector) or to
+create a subtheme.
 
 ## Installation
 
