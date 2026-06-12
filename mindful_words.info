@@ -1,0 +1,20 @@
+type = theme
+name = Mindful Words
+description = Subtheme of Bedrock with Color module support.
+backdrop = 1.x
+base theme = bedrock
+maintainers[indigoxela] = indigoxela
+
+stylesheets[all][] = css/source-serif-4.css
+stylesheets[all][] = css/color-scheme.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/tinymce-styles-dropdown.css
+
+tinymce_content_css[] = ../bedrock/css/base.css
+tinymce_content_css[] = ../../core/misc/opensans/opensans.css
+tinymce_content_css[] = css/source-serif-4.css
+tinymce_content_css[] = css/color-scheme.css
+tinymce_content_css[] = css/styles.css
+tinymce_content_css[] = css/tinymce-styles-dropdown.css
+
+settings[color] = true

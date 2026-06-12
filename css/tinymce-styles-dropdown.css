@@ -1,0 +1,36 @@
+/* Special styles also available in TinyMCE styles dropdown */
+
+span.text-smaller {
+  font-size: .8rem;
+}
+span.text-large {
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+span.text-x-large {
+  font-size: 2.45rem;
+  line-height: 1.1;
+}
+a.big-button-link {
+  display: inline-block;
+  padding: .5em 1.5em;
+  background-color: var(--bedrock-link-color);
+  color: var(--bedrock-bg-color);
+  font-weight: bold;
+  border: 1px solid var(--bedrock-link-color);
+  text-decoration: none;
+  border-radius: 6px;
+}
+a.ghost-button-link {
+  display: inline-block;
+  padding: .5em 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: currentColor;
+  border: 1px solid;
+  border-radius: 6px;
+}
+a.big-button-link:hover,
+a.ghost-button-link:hover {
+  box-shadow: 0 0 10px #0002;
+}

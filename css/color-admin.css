@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Make admin UI less ugly...
+ */
+.color-preview,
+fieldset.color-form {
+  margin-top: 1.3em;
+}
+.color-preview iframe#preview {
+  border: 2px solid #0002;
+  border-radius: 4px;
+}
