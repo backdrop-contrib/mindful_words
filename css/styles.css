@@ -196,10 +196,10 @@ article.node footer {
   border-radius: 3px;
 }
 @media (min-width: 90em) {
-  article.node footer {
+  article.node > footer {
     position: relative;
   }
-  article.node .user-picture {
+  article.node > footer .user-picture {
     width: 100px;
     text-align: end;
     position: absolute;
