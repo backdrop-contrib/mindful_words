@@ -15,6 +15,9 @@ h1.page-title {
   font-weight: 800;
   margin: 1.2em 0;
 }
+body.admin-page h1.page-title {
+  margin: 1rem 0 2rem;
+}
 h2,
 h3 {
   margin-top: 3rem;
@@ -77,6 +80,9 @@ h1.site-name,
   justify-content: space-between;
   flex-direction: column;
   flex-wrap: wrap;
+}
+body.admin-page .l-header-inner {
+  min-height: 1em;
 }
 .l-header ul.menu-dropdown {
   margin-inline-start: -.9375rem;
