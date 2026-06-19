@@ -1,6 +1,14 @@
 :root {
   --bedrock-font: 1.1rem/1.6 "Open Sans", arial, sans-serif;
 }
+/* Workaround for Chrome quirk with 100vw. */
+@supports (-webkit-appearance:none) and (not (overflow:-webkit-marquee)) and (not (-moz-appearance:none)) {
+  :root {
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+  }
+}
+
 h1,
 h2,
 h3,
