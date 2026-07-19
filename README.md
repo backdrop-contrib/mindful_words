@@ -24,6 +24,10 @@ create a subtheme.
 
 - Install this theme using the official [Backdrop CMS instructions](https://docs.backdropcms.org/documentation/skin-with-themes)
 
+Mindful Words is a subtheme of
+[Bedrock](https://backdropcms.org/project/bedrock) so you will need the base
+theme as well. It doesn't need to be enabled, only available.
+
 ## Issues
 
 Bugs and Feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/mindful_words/issues)
